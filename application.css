@@ -6,10 +6,9 @@ body {
     line-height: 1.5;
 }
 .endt {
-    padding: 5px 20px;
+    margin: 5%;
+    color: white;
     background: url("https://lh3.googleusercontent.com/0XYhtmiOWoz9-YUT5mlIXwMWTyCdvxJgOnH_3JBLL4bEfSSiM6HBawTeMAEaW-xcYYLJ0iwmuf6L8iPBDpY7C423xfHhWQ9OcdRjbWG43s9QNZmCqhYj62GEzMAXVE_CxVYlNKlchtESADTaRin_0FT2KAH294ilDYjgQ8BLL4YzgjyUDRtxsLDO-31ssxfM6m0nJQRKFxAl2u-mWfyANKS4LF5I7jyIsObwzs8kCjfEiC5Gp7ULkcz1DnmUtI5XytKSVTzC8bHNJhi0z4VR6R1WHPOCyPccmBBIQqSxEU8zMChRci7G37tciiV3uhOVK04nRlbShuj3cHyErNgk07C5f4FnRglgquvxJ6XWV3PNmKfCT3GnnSU7lvvpBTPiEHt3Fv0-_V85ie76gPodfMtPKFP7G_Jx1G3zKmpkHaznodA-tzU9BTVgYwHO-kzRWvTId7wMae8PoT360Ae0Dnr6-GS0o03UYGqCmURGPRn0vgsK2dB9lQg_skrMsSFAu7Pn3f897qocNlWp1_cgpfKV_jrXABGEMB7LHPnHnfi30Kae5wzqu9_OGgGsRcbUVLtn_gQ_p0pwbsFPfrTwwP10qCW_efzpxhap1W_7-J8-9zj9bma7el3vJBqdouXzUKjIEcV8fxfid1OETfr8lZLANR0ZEw-7peLXMLp6T3nMz49zq2Pcqk2p-M1LaH33ltvUEsWhB3U5OyoaF5V95nY=w712-h949-no?authuser=0");
-    color: whith;
-    padding: 5px 40px;
     margin-top: 20px;
     border-radius: 30px;
     text-align: center;
