@@ -1,0 +1,69 @@
+body {
+    margin: auto;
+    background: url(imagens/background.png);
+    font-family: 'Lato';
+    line-height: 1.5;
+}
+
+.espaçar {
+    color: white;
+}
+
+.facebook {
+    right: 5px;
+    top: 3px;
+    margin: 5px 15px 5px 5px;
+    display: inline;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.botão :hover {
+    text-size-adjust: 10px;
+    color: white;
+    background: black;
+}
+
+.botão {
+    text-decoration: none;
+    text-size-adjust: 30px;
+    color: black;
+    display: inline;
+    text-align: center;
+    width: 350px;
+    height: 45px;
+    border: 4px inset #000000;
+    padding: 5px, 20px;
+    border-radius: 25px;
+    background: white;
+    margin: 10px 15px 5px 5px;
+}
+
+main {
+    margin: 5%;
+    color: white;
+    background: url("imagens/fotoespaço/2.jpg");
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+ementa {
+    align-tracks: center;
+    text-align: center;
+    color: black;
+    background: white;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 350px;
+    height: 45px;
+}
