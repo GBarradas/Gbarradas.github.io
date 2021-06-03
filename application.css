@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    background: url(imagens/background.png);
+    background: url("//lh3.googleusercontent.com/ebqljRkxTIq8mIF1_eTKMHsT0wfUeSNBjSN20MBG-AWCRqYyzGT1Lm0qvZW6WsLaZ6GuRw=s85");
     font-family: 'Lato';
     line-height: 1.5;
 }
@@ -49,7 +49,7 @@ header {
 main {
     margin: 5%;
     color: white;
-    background: url("imagens/fotoespaço/2.jpg");
+    background: url("//lh3.googleusercontent.com/f-nxf3dhv9fgcDPqg3vX9hsydvQyC6RRG1LzLkD1S3r4i8yyeg0i1fLL4bJ7Kz2MEos8Cg=s85");
     padding: 5px 40px;
     margin-top: 20px;
     border-radius: 30px;
