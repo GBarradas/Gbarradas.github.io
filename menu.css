@@ -1,6 +1,6 @@
 body {
     margin: 5%;
-    background: url(https://lh3.googleusercontent.com/dk9S2K-9mfYcQXTVfw4mbyE4b735JLUFx_moUW_D7ZKY7-HkjVyXsHIIp1JX5698VLtgTVnXir777oF2C7p94BEwWfY7yTEj8jsuoCbQ9bC_1skGEgqrd8Xx-mxNvCly0ajgocHs4V4Ux_jJkSkiaWgtTIVMh2u7qqGca89vJubEPfhj9BZeh2R7p59g2_MKojsFEeD9hf2IdM3VNF08fyeXjig2hwz-YS_-IEqarv9QlymOcyiFiBbklOh-wQNQ0rGs1FBWU3NtiKrvsDd2ZDb6Ob84-JzHbqJF5wkWnNGBBHFKeBDAMWdjoqmXESMONAUQs_Pb7EX9QjA5a57RwfZDawK8KNslDeNVO02R32rGV4TN6m6-1Dn5PWIMWeCNC35TeKYU4oGX6KD06NJ_g82s-Z1Yv1lqYUs8fJhQRpknE1rpLWZ4N6WVrA-Xj7PUvaFVrvRl_zC01Ttnql4_mMSZ8Cjci-pIUXNb2f_QwFXpxYgRpEVri66Ar4rnJmNQHFa-532HofH3foGBcCuD2dIjgY03I4rH_CtRxW8hKTUBMVbIEAtY4f34OEZxYVDSOIfiZga5AS9JXQURhjoptGpNLCS6PPE9XP-jYAd8lFNJ5HhG5d4GyjFs2cpADu4MIjFsjrwJg8w2Kn-5yQBFFOT7KL5JPX2hcgNDf9scls8XgTWLPOfIcXdNfSVgYlrX2MT_AptzOB4Da6fCt2IjgxY=w753-h903-no?authuser=0);
+    background: url(https://github.com/GBarradas/Gbarradas.github.io/blob/main/Imagens/background.png);
     font-family: 'Lato';
     line-height: 1.5;
 }
@@ -129,6 +129,8 @@ ul {
 
 .foto {
     border: 2px inset transparent;
+    max-width: 100%;
+    height: auto;
 }
 
 .linha {
