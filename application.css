@@ -38,11 +38,6 @@ header {
     right: 0%;
 }
 
-.botão :hover {
-    text-size-adjust: 10px;
-    color: white;
-    background: black;
-}
 
 .botão {
     color: black;
