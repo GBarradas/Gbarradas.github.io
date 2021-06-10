@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    background: url(imagens/background.png);
+    background: url(https://github.com/GBarradas/Gbarradas.github.io/blob/main/Imagens/background.png?raw=true);
     font-family: 'Lato';
     line-height: 1.5;
 }
@@ -10,7 +10,7 @@ body {
     margin-right: 5%;
     margin: 5%;
     color: white;
-    background: url("imagens/fotoespaço/11.jpg");
+    background: url("https://github.com/GBarradas/Gbarradas.github.io/blob/main/Imagens/11.jpg?raw=true");
     margin-top: 20px;
     border-radius: 30px;
     text-align: center;
@@ -60,7 +60,7 @@ header {
 main {
     margin: 5%;
     color: white;
-    background: url("imagens/fotoespaço/2.jpg");
+    background: url("https://github.com/GBarradas/Gbarradas.github.io/blob/main/Imagens/2.jpg?raw=true");
     padding: 5px 40px;
     margin-top: 20px;
     border-radius: 30px;
