@@ -37,25 +37,19 @@ header {
     right: 0%;
 }
 
-.botão :hover {
-    text-size-adjust: 10px;
-    color: white;
-    background: black;
-}
+
 
 .botão {
-    text-decoration: none;
-    text-size-adjust: 30px;
     color: black;
     display: inline;
     text-align: center;
     width: 350px;
     height: 45px;
-    border: 4px inset #000000;
+    border-color: transparent;
     padding: 5px, 20px;
     border-radius: 25px;
-    background: white;
     margin: 10px 15px 5px 5px;
+    background: white;
 }
 
 main {
