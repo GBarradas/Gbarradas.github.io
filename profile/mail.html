@@ -1,1 +1,54 @@
-<h1>Aqui esta online</h1>
+<html>
+    <script src="https://smtpjs.com/v3/smtp.js" ></script>
+    <script  >
+        $('#contact-form').submit(function(e){
+        var name=document.getElementById('name'),
+        email=document.getElementById('email'),
+        assunto=document.getElementById('assunto'),
+        message=document.getElementById('message');
+        if(!name.value || !email.value||!assunto.value||!message.value){
+            alrtify.error('Please check your entries')
+        }else{
+        Email.send({
+            SecureToken:"dd3b72c8-a558-4c2b-9b66-21f1c87c3e89" ,
+            To:"gbarradas1@hotmail.com",
+            From:email.value,
+            Subject:"MyGitHub: "+assunto.vaule,
+            Body:message.value,
+
+        }).then();
+        }
+    })
+    </script>
+    <meta name="author" content="Gonçalo Barradas">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <head>
+        <title>Email</title>
+        <link rel="stylesheet" type="text/css" href="/css/mail.css">
+        <script src="/js/email.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-inside">
+                <h1 class="tittle"><b>Send me a email</b></h1>
+                <form class="contact-form">
+                    <div>
+                        <label class="label" for="name" >Name:</label>
+                        <input type="text" id="name" class="input" placeholder="Name" required><br>
+                        <label class="label" for="email" >Email:</label>
+                        <input type="email" id="email" placeholder="Email" class="input" id="email" required>  
+                        <label class="label" for="email" >Subject:</label>
+                        <input type="text" id="assunto" class="input" placeholder="Subject" ><br>
+                        <label class="label" for="message" >Message:</label>
+                        <textarea id="message" placeholder="Message" name="message" rows="5" cols="50"  class="input textarea" required></textarea>
+                    </div><br>
+                    <div>
+                        <button type="submit" name="submit" class="btn btn-primary " id="submit"><b>Send</b></button>
+                        <button type="reset" class="btn btn-primary" id="cancelar" ><b>Delete</b></button>
+                    </div>
+                </form>
+            </div>
+
+        </diiv>
+    </body>
+</html>
