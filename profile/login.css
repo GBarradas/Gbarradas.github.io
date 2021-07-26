@@ -108,6 +108,7 @@ line-height:1.2}
  .h5,h5{font-size:1.25rem}
  .h6,h6{font-size:1rem}
  .lead{font-size:1.25rem;
+
 font-weight:300}
  .display-1{font-size:6rem;
 font-weight:300;
@@ -170,7 +171,7 @@ color:inherit;
 word-break:normal}
  .pre-scrollable{max-height:340px;
 overflow-y:scroll}
- .container{width:auto;
+ .container{width:100%;
 padding-right:15px;
 padding-left:15px;
 margin-right:auto;
@@ -3978,3 +3979,6 @@ widows:3}h2,h3{page-break-after:avoid}@page{size:a3}body{min-width:992px!importa
 .table-dark tbody+tbody,.table-dark td,.table-dark th,.table-dark thead th{border-color:#dee2e6}
 .table .thead-dark th{color:inherit;
 border-color:#dee2e6}}
+.center{
+    align-items: center;
+}
