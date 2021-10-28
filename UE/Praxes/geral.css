@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(177, 169, 169);
+    
+}
+.titulo{
+    text-align: center;
+}
+.conteiner5{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#infoalways{
+    text-align: center;
+    color: black !important;
+    font-size: xx-large;
+}
+.infocomplement{
+    font-size: large !important ;
+}
+.info{
+    position: absolute;
+    font-size: large;
+    color:transparent ;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    display:inline-block;
+    user-select:none;
+    background-color:transparent;
+    border:1px solid transparent;
+    padding: .375rem 2rem;
+    font-size:1rem;
+    line-height:1.5;
+    border-radius:1.85rem;
+    transition:color .15s ease-in-out;
+    background-color: .15s ease-in-out;
+    border-color: .15s ease-in-out;
+    box-shadow: .15s ease-in-out;
+    background-color: rgba(240, 248, 255, 0.692);
+}
+
+ .info:hover{
+    color:black;
+}
+
+.Excel{
+    border: 3px solid black;
+    height: 600px;
+    width: 100%;
+}
