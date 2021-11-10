@@ -12,7 +12,7 @@
 - Dar as informações para o pagamento;
 - falar do jantar de passagem de testemunho;
 - marcar o jantar de passagem de testemunho;
-- Discução de como vai decorrer o jantar;
+- Discussão de como vai decorrer o jantar;
 
 
 ## Informações de pagamento:credit_card::
