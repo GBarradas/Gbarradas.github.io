@@ -22,3 +22,7 @@
 ## Informações:
 Para duvidas e questões. <br />
 **Telemovel:telephone_receiver::** 968081966
+
+-pedir fotos e nome de cada bicho
+-fazer diploma de caca 
+
