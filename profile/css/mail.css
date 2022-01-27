@@ -1,11 +1,11 @@
 .container{
     
-    margin-left:10%;
-    margin-right: 10%;
+    margin-left:20%;
+    margin-right: 20%;
     border: 2px solid black;
     border-radius: 1.25rem;
     border-color:#343a40!important;
-    background-color: rgb(224, 217, 217);
+    background-color: rgb(212, 199, 199);
 }
 
 .container-inside{
