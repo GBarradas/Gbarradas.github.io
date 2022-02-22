@@ -1,0 +1,15 @@
+# Site settings
+title: MIUP 2014
+email: hugosf@fe.up.pt
+baseurl: ""
+url: "http://gbarradas.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+collections:
+  sponsors:
+    output: false
+  institutions:
+    output: false
