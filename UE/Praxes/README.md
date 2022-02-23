@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>Praxes 2022</title>
