@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Praxes 2022</title>
+        <link rel="stylesheet" type="text/css" href="css/geral.css">
+        <script type='application/javascript' src='js/praxes.js'> </script>
+    </head>
+    <body>
+        
+        <h1 class="titulo">Tabela de Pagamento Praxes 2022 </h1>
+        
+        <button class="btn" id="show" onclick="show()" ></button>
+        <div class="conteiner" >
+            <div id="info" class="info">
+                <h3 id="infoalways">Metodos de Pagamento</h3>
+                <p><strong id="infoalways" class="infocomplement">IBAN:</strong>  PT50001800035471985102010</p>
+                <p><strong id="infoalways" class="infocomplement">Código SWIFT/BIC:</strong> TOTAPTPL</p>
+                <p><strong id="infoalways" class="infocomplement">MBWay:</strong> 968081966</p>
+            </div>
+            <script>iniciar();</script>
+            <div class="conteiner5"><iframe class="Excel" id="pagamento" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=7AD31E896FECCB13%2115630&authkey=%21AC314gaDx6M-tNU&em=2&AllowTyping=False&Item='PUB'!A1%3AS50&wdDownloadButton=false&wdInConfigurator=False"></iframe>
+            </div><br>
+        </div>
+        </body>
+</html>
