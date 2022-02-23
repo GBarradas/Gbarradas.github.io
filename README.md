@@ -1,6 +1,6 @@
 📂 Gbarradas   
-&emsp;&emsp;📂 [Praxes](Praxes)   
-&emsp;&emsp;📂 [EI](EI)  
+&emsp;&emsp;📂 [Praxes](UE/Praxes)   
+&emsp;&emsp;📂 [EI](UE/EI)  
 📂 [BD_Work_1](BD_Work_1)  
 📂 [BD_Work_2](BD_Work_2)    
 📂 [CG_Work](CG_Work)  
