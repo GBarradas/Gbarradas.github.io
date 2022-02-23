@@ -1,0 +1,44 @@
+th{
+    border-bottom: 2pt solid black;
+    height: 40px;
+}
+tr{
+    height: 40px;
+}
+.tableShowSem:hover{
+    border: 2px solid black;
+}
+.feita:hover,
+.showSem:hover,
+.calcmed:hover,
+.row:hover{
+    background-color:#c2c0c0 !important; 
+}
+#dis{
+    height:50vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 10vw;
+    width: 80vw
+}
+#mainHead{
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #e5e5e5;
+    -webkit-column-break-after: 0px;
+}
+.feita,
+.showSem,
+.colum{
+    align-items: center;
+    text-align: center;
+}
+.calcmed{
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}

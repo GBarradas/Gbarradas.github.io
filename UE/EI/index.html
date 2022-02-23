@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notas-GB-EI-UE</title>
+        <script src="js/table.js" ></script>
+        <script src="js/info.js" ></script>
+        <link href="info.html" rel="import" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+      
+
+        <table class="apre" >
+            <thead>
+            <tr>
+                <th class="sem" >Semestre </th>
+                <th class="coduc" >Total ECTS</th>
+                <th class="uc" >ECTS Feitos</th>
+                <th class="ac" >ECTS em Falta</th>
+                <th class="etcs" >Media</th>
+                <th class="feita" onclick="calcMed(cc1,'m1');
+                calcMed(cc2,'m2');calcMed(cc3,'m3');calcMed(cc4,'m4');calcMed(cc5,'m5');
+                calcMed(cc6,'m6');calcMed(apro,'media');"
+                >Calcular</th>
+            </tr>
+        </thead>
+        <tbody  >
+            <tr>
+                <td onclick="initTable(cc1)" class="showSem" >1º Semestre</td>
+                <td class="colum"  id="tec1"></td>
+                <td class="colum"  id ="ecf1"></td>
+                <td class="colum"  id="ecef1" ></td>
+                <td class="colum"  id="m1" ></td>
+                <td onclick="calcMed(cc1,'m1');" class="calcmed" >
+                    Media
+                </td>
+                <script>calcTECTS(cc1,"tec1");calcECTSf(cc1,"ecf1");calcECTSef(cc1,"ecef1")</script>
+            </tr>
+            <tr>
+                <td onclick="initTable(cc2)" class="showSem" >2º Semestre</td>
+                <td class="colum"  id="tec2"></td>
+                <td class="colum"  id ="ecf2"></td>
+                <td class="colum"  id="ecef2" ></td>
+                <td class="colum"  id="m2" ></td>
+                <td class="calcmed" onclick="calcMed(cc2,'m2');" >
+                    Media
+                </td>
+                <script>calcTECTS(cc2,"tec2");calcECTSf(cc2,"ecf2");calcECTSef(cc2,"ecef2")</script>
+            </tr>
+            <tr>
+                <td onclick="initTable(cc3)" class="showSem" >3º Semestre</td>
+                <td class="colum"  id="tec3"></td>
+                <td class="colum"  id ="ecf3"></td>
+                <td class="colum"  id="ecef3" ></td>
+                <td class="colum"  id="m3" ></td>
+                <td class="calcmed" onclick="calcMed(cc3,'m3');" >
+                    Media
+                </td>
+                <script>calcTECTS(cc3,"tec3");calcECTSf(cc3,"ecf3");calcECTSef(cc3,"ecef3")</script>
+            </tr>
+            <tr>
+                <td onclick="initTable(cc4)" class="showSem" >4º Semestre</td>
+                <td class="colum"  id="tec4"></td>
+                <td class="colum"  id ="ecf4"></td>
+                <td class="colum"  id="ecef4" ></td>
+                <td class="colum"  id="m4" ></td>
+                <td class="calcmed" onclick="calcMed(cc4,'m4');" >
+                   Media
+                </td>
+                <script>calcTECTS(cc4,"tec4");calcECTSf(cc4,"ecf4");calcECTSef(cc4,"ecef4")</script>
+            </tr>
+            <tr>
+                <td onclick="initTable(cc5)" class="showSem" >5º Semestre</td>
+                <td class="colum"  id="tec5"></td>
+                <td class="colum"  id ="ecf5"></td>
+                <td class="colum"  id="ecef5" ></td>
+                <td class="colum"  id="m5" ></td>
+                <td class="calcmed" onclick="calcMed(cc5,'m5');" >
+                    Media
+                </td>
+                <script>calcTECTS(cc5,"tec5");calcECTSf(cc5,"ecf5");calcECTSef(cc5,"ecef5")</script>
+            </tr>
+            <tr>
+                <td onclick="initTable(cc6)" class="showSem" >6º Semestre</td>
+                <td class="colum"  id="tec6"></td>
+                <td class="colum"  id ="ecf6"></td>
+                <td class="colum"  id="ecef6" ></td>
+                <td class="colum"  id="m6" ></td>
+                <td class="calcmed" onclick="calcMed(cc6,'m6');"  >
+                    Media
+                </td>
+                <script>calcTECTS(cc6,"tec6");calcECTSf(cc6,"ecf6");calcECTSef(cc6,"ecef6")</script>
+            </tr>
+
+            <tr>
+                <td onclick="initTable(table)" class="showSem" >Final</td>
+                <td class="colum"  id="tects"></td>
+                <td class="colum"  id ="ectsf"></td>
+                <td class="colum"  id="ecef" ></td>
+                <td class="colum"  id="media" ></td>
+                <td class="calcmed" onclick="calcMed(apro,'media');" >
+                    Media
+            </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <table>
+        <thead id="mainHead">
+            <tr>
+                <th class="sem" >Semestre</th>
+                <th class="coduc" >Códico UC</th>
+                <th class="uc" >Unidade Curricular</th>
+                <th class="ac" >Área Cientifica</th>
+                <th class="etcs" >ECTS</th>
+                <th class="feita" >Realizada</th>
+                <th class="nota" >Nota</th>
+            </tr>
+        </thead>
+        <tbody id="inf" ></tbody>
+    </table>
+   
+        <div id="terminal"></div>
+        <script>initTable(table)</script>
+        <br><br>
+    </body>
+</html>
