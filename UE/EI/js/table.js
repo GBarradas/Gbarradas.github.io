@@ -102,7 +102,6 @@ function calcMed(a,i){
     }
 }
 function initTable(x){
-    getInfo()
     for(k of table){
         tects+=k.etcs
     }
