@@ -102,6 +102,8 @@ function calcMed(a,i){
     }
 }
 function initTable(x){
+    tects=0;
+    ectsf=0;
     for(k of table){
         tects+=k.etcs
     }
