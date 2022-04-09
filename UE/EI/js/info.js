@@ -35,8 +35,8 @@ alga={
     nome: "Álgebra Linear e Geometria Analítica" ,
     aC:mat,
     etcs: 6,
-    feita: true ,
-    nota:"10",
+    feita: false ,
+    nota:"-",
 },
 am1={
     semestre: 1 ,
@@ -81,8 +81,8 @@ am2={
     nome: "Análise Matemática II" ,
     aC:mat,
     etcs: 6,
-    feita: true ,
-    nota:"10",
+    feita: false ,
+    nota:"-",
 },
 ipe={
     semestre: 2 ,
