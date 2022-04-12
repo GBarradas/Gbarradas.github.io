@@ -1,0 +1,25 @@
+th{
+    border-bottom: 2pt solid black;
+    height: 40px;
+}
+tr{
+    height: 40px;
+}
+
+
+tr:hover{
+    background-color:#c2c0c0 !important; 
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 10vw;
+    width: 80vw
+}
+#mainHead{
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #e5e5e5;
+    -webkit-column-break-after: 0px;
+}
