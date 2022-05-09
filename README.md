@@ -12,3 +12,8 @@
 📂 [P2-Work](P2-Work)  
 📂 [~~Redes_Work_1~~](Redes_Work_1)  
 📂 [~~SO_Work_1~~](SO_Work_1)   
+
+
+---
+ <!-- waka-box start -->
+ <!-- waka-box end -->
