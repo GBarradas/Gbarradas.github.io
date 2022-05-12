@@ -8,10 +8,13 @@
 📂 [~~EDA2~~](EDA2)  
 📂 [~~EDA2_Work_1~~](EDA2_Work_1)  
 📂 [~~EDA2_Work_2~~](EDA2_Work_2)  
+📂 [~~EDA2_Work_3~~](EDA2_Work_3) 
 📂 [P1-mineweeper](P1-mineweeper)    
 📂 [P2-Work](P2-Work)  
 📂 [~~Redes_Work_1~~](Redes_Work_1)  
+📂 [~~Redes_Work_2~~](Redes_Work_2)  
 📂 [~~SO_Work_1~~](SO_Work_1)   
+📂 [~~SO_Work_2~~](SO_Work_2) 
 
 
 ---
