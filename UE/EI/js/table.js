@@ -159,7 +159,121 @@ function initTable(x){
         tr.appendChild(tdfei)
 
         info.appendChild(tr)
+
         
+    }
+    //nav
+   
+    let inp1 = document.getElementById("left").querySelector("button");
+    let inp2 = document.getElementById("right").querySelector("button");
+    let center = document.getElementById("center").querySelector("button");
+    console.log(center);
+    switch(x){
+        case table:
+            inp1.style.display = 'none';
+            inp2.style.display = 'none';
+            center.style.display = "inline";
+            center.textContent = "1º Semestre"
+            center.onclick = function(){
+                initTable(cc1);
+            }
+            
+            break;
+        case cc1:
+            inp1.style.display = "inline"
+            inp1.textContent = "Pagina Principal"
+            center.style.display = "none"
+            inp1.onclick = function(){
+                initTable(table);
+            }
+            inp2.style.display = "inline"
+            inp2.textContent = "2ºSemestre"
+            center.style.display = "none"
+            inp2.onclick = function(){
+                initTable(cc2);
+            }
+            break;
+        case cc2:
+            inp1.style.display = "inline"
+            inp1.textContent = "1ºsemestre"
+            inp1.onclick = function(){
+                initTable(cc1);
+            }
+            center.textContent = "Pagina Principal"
+            center.style.display = "inline"
+            center.onclick = function(){
+                initTable(table);
+            }
+            inp2.style.display = "inline"
+            inp2.textContent = "3ºSemestre"
+            inp2.onclick = function(){
+                initTable(cc3);
+            }
+            break;
+        case cc3:
+            inp1.style.display = "inline"
+            inp1.textContent = "2ºsemestre"
+            inp1.onclick = function(){
+                initTable(cc2);
+            }
+            center.textContent = "Pagina Principal"
+            center.style.display = "inline"
+            center.onclick = function(){
+                initTable(table);
+            }
+            inp2.style.display = "inline"
+            inp2.textContent = "4ºSemestre"
+            inp2.onclick = function(){
+                initTable(cc4);
+            }
+            break;
+        case cc4:
+            inp1.style.display = "inline"
+            inp1.textContent = "3ºsemestre"
+            inp1.onclick = function(){
+                initTable(cc3);
+            }
+            center.textContent = "Pagina Principal"
+            center.style.display = "inline"
+            center.onclick = function(){
+                initTable(table);
+            }
+            inp2.style.display = "inline"
+            inp2.textContent = "5ºSemestre"
+            inp2.onclick = function(){
+                initTable(cc5);
+            }
+            break;
+        case cc5:
+            inp1.style.display = "inline"
+            inp1.textContent = "4ºsemestre"
+            inp1.onclick = function(){
+                initTable(cc4);
+            }
+            center.textContent = "Pagina Principal"
+            center.style.display = "inline"
+            center.onclick = function(){
+                initTable(table);
+            }
+            inp2.style.display = "inline"
+            inp2.textContent = "6ºSemestre"
+            inp2.onclick = function(){
+                initTable(cc6);
+            }
+            break;
+        case cc6:
+            inp1.style.display = "inline"
+            inp1.textContent = "5ºsemestre"
+            inp1.onclick = function(){
+                initTable(cc5);
+            }
+            center.style.display = "none"
+            inp2.style.display = "inline"
+            inp2.textContent = "Pagina Principal"
+            inp2.onclick = function(){
+                initTable(table);
+            }
+            break;
     }
     
 }

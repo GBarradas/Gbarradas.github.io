@@ -81,8 +81,8 @@ am2={
     nome: "Análise Matemática II" ,
     aC:mat,
     etcs: 6,
-    feita: false ,
-    nota:"-",
+    feita: true ,
+    nota:"10",
 },
 ipe={
     semestre: 2 ,
@@ -146,8 +146,8 @@ alp={
     nome: "Autómatos e Linguagens de Programação" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "18",
 },
 eda2={
     semestre: 4 ,
@@ -173,8 +173,8 @@ lc={
     nome: "Lógica e Computação" ,
     aC:inf,
     etcs: 3,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "14",
 },
 rc={
     semestre: 4 ,
@@ -182,8 +182,8 @@ rc={
     nome: "Rede de Computadores" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "16",
 },
 so={
     semestre: 4 ,
@@ -191,8 +191,8 @@ so={
     nome: "Sistemas Operativos" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "13",
 },
 //5º Semestre
 aa={

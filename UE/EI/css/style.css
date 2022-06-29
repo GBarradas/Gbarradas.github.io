@@ -42,3 +42,30 @@ tr:nth-child(even) {
     text-align: center;
     font-size: larger;
 }
+#navdiv{ 
+    margin-top: 30px;
+    position: inline-block; 
+    align-items: center; 
+    text-align: center; 
+    margin-left: 10vw;
+    width: 80vw;
+} 
+#navdiv span button{
+    margin-left: .25rem;
+    margin-right: .25rem;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    background-color:rgb(185, 209, 236);
+    border: 2px solid black;
+    padding: .375rem 2rem;
+    font-size:1.9rem;
+    border-radius:.25rem;
+}
+#navdiv span button:hover{
+    background-color:rgb(207, 207, 207);
+}
+
+#left{float: left; } 
+#center{ text-align: center; } 
+#right{float: right; }  
