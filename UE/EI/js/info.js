@@ -147,7 +147,7 @@ alp={
     aC:inf,
     etcs: 6,
     feita: true ,
-    nota: "18",
+    nota: 18,
 },
 eda2={
     semestre: 4 ,
@@ -155,8 +155,8 @@ eda2={
     nome: "Estrutura de Dados e Algoritmos II" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: 15,
 },
 ii={
     semestre: 4 ,
@@ -174,7 +174,7 @@ lc={
     aC:inf,
     etcs: 3,
     feita: true ,
-    nota: "14",
+    nota: 14,
 },
 rc={
     semestre: 4 ,
@@ -183,7 +183,7 @@ rc={
     aC:inf,
     etcs: 6,
     feita: true ,
-    nota: "16",
+    nota: 16,
 },
 so={
     semestre: 4 ,
@@ -192,7 +192,7 @@ so={
     aC:inf,
     etcs: 6,
     feita: true ,
-    nota: "13",
+    nota: 13,
 },
 //5º Semestre
 aa={
