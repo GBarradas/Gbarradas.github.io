@@ -164,8 +164,8 @@ ii={
     nome: "Intrudução à Investigação" ,
     aC:inf,
     etcs: 3,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: 17,
 },
 lc={
     semestre: 4 ,
