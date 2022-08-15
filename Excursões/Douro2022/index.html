@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-PT"></html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Douro 2022</title>
+        <script type="text/javascript" src="Nomes.js"></script>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-column-gap: 20px;
+                grid-row-gap: 20px;
+                justify-items: stretch;
+                align-items: stretch;
+            }
+            body {
+                background-color: rgba(128, 128, 128, 0.281);
+            }
+    
+            
+            li{
+                font-size: large;
+            }
+        .needname{
+            background-color: red;
+        }
+        h1{
+            font-size: 50px;
+            }
+        .moto{
+            background-color: yellow;
+        }
+        </style>
+    </head>
+    <body>
+        <div >
+
+            <div id = "container">
+                <h1>Nomes</h1>
+            <ol id = "names"></ol>
+
+        </div>
+        <br>
+        <div id = "container" >
+            <h1>Quartos</h1>
+            <ol id = "quartos">
+                
+            </ol>
+            
+        </div>    
+    </div>
+    <div>
+        <p>Quarto Individual : <span id="q1"></span></p>
+        <p>Quarto Duplo : <span id="q2"></span></p>
+        <p>Quarto Triplo : <span id="q3"></span></p>
+        <p>Total : <span id="t"></span></p>
+    </div>
+        <script>main()</script>
+    </body>
+</head>
+</html>
