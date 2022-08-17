@@ -59,8 +59,10 @@ let  n50 =  { class:"", nome: "Leonor Jesus" }
 let  n51 =  { class:"", nome: "Maria Gonçalves" }
 let  n52 =  { class:"", nome: "Maria Fatima" }
 let  n53 =  { class:"", nome: "Guia" }
+let  m1  =  { class:"moto", nome: "Motorista 1" } 
+let  m2  =  { class:"moto", nome: "Motorista 2" }
 
-let Names = [n1, n2 ,n3 ,n4 ,n5 ,n6 ,n7 ,n8 ,n9 ,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27,n28,n29,n30,n31,n32,n33,n34,n35,n36,n37,n38,n39,n40,n41,n42,n43,n44,n45,n46,n47,n48,n49,n50,n51,n52,n53]
+let Names = [n1, n2 ,n3 ,n4 ,n5 ,n6 ,n7 ,n8 ,n9 ,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27,n28,n29,n30,n31,n32,n33,n34,n35,n36,n37,n38,n39,n40,n41,n42,n43,n44,n45,n46,n47,n48,n49,n50,n51,n52,n53,m1,m2]
 const q1 ={elemnts: [n5, n6], type: rooms.Casal }
 const q2 ={elemnts: [n34], type: rooms.Individual }
 const q3 ={elemnts: [n10, n11], type: rooms.Casal }
@@ -87,6 +89,9 @@ const q23={elemnts: [n47, n48], type: rooms.Casal }
 const q24={elemnts: [n49], type: rooms.Individual }
 const q25={elemnts: [n1,n3], type: rooms.Casal }
 const q26={elemnts: [n2,n4], type: rooms.Duplo }
+const q27={elemnts: [n53], type: rooms.Individual }
+const q28={elemnts: [m1], type: rooms.Individual }
+const q29={elemnts: [m2], type: rooms.Individual }
 var individual = 0;
 var duplo = 0;
 var casal = 0;
@@ -97,7 +102,7 @@ var Quartos = [q1 ,q2 ,q3 ,q4 ,q5 ,q6 ,q7 ,q8 ,q9 ,q10,q11,q12,q13,q14,q15,q16
     q18,
     q19,
     q20,
-    q21,q22,q23,q24,q25,q26
+    q21,q22,q23,q24,q25,q26,q27,q28,q29
 ]
 function main(){
     //console.log(Names)
