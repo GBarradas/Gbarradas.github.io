@@ -1,3 +1,10 @@
+const rooms = {
+    Individual: 1,
+    Duplo: 2,
+    Casal: 4,
+    Triplo:3,
+}
+
 
 let  n1  =  { class:"", nome: 'Maria Amélia Rosa' }
 let  n2  =  { class:"", nome: "Maria Margarida Rosa" }
@@ -54,34 +61,35 @@ let  n52 =  { class:"", nome: "Maria Fatima" }
 let  n53 =  { class:"", nome: "Guia" }
 
 let Names = [n1, n2 ,n3 ,n4 ,n5 ,n6 ,n7 ,n8 ,n9 ,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27,n28,n29,n30,n31,n32,n33,n34,n35,n36,n37,n38,n39,n40,n41,n42,n43,n44,n45,n46,n47,n48,n49,n50,n51,n52,n53]
-const q1 =[n5, n6]
-const q2 =[n34]
-const q3 =[n10, n11]
-const q4 =[n14,n15]
-const q5 =[n12,n13]
-const q6 =[n22, n23]
-const q7 =[n20, n21]
-const q8 =[n18, n19]
-const q9 =[n16, n17]
-const q10=[n24, n44]
-const q11=[n37, n38]
-const q12=[n7,n8,n9]
-const q13=[n25, n26]
-const q14=[n27, n52,n51]
-const q15=[n28,n29]
-const q16=[n30,n33]
-const q17=[n31, n32]
-const q18=[n35, n36]
-const q19=[n39, n40]
-const q20=[n41, n50]
-const q21=[n42, n43]
-const q22=[n45,n46]
-const q23=[n47, n48]
-const q24=[n49]
-const q25=[n1,n3]
-const q26=[n2,n4]
+const q1 ={elemnts: [n5, n6], type: rooms.Casal }
+const q2 ={elemnts: [n34], type: rooms.Individual }
+const q3 ={elemnts: [n10, n11], type: rooms.Casal }
+const q4 ={elemnts: [n14, n15], type: rooms.Casal }
+const q5 ={elemnts: [n12, n13], type: rooms.Casal }
+const q6 ={elemnts: [n22, n23], type: rooms.Casal }
+const q7 ={elemnts: [n20, n21], type: rooms.Casal }
+const q8 ={elemnts: [n18, n19], type: rooms.Casal}
+const q9 ={elemnts: [n16, n17], type: rooms.Casal }
+const q10={elemnts: [n24, n44], type: rooms.Duplo }
+const q11={elemnts: [n37, n38], type: rooms.Casal }
+const q12={elemnts: [n7,n8,n9], type: rooms.Triplo }
+const q13={elemnts: [n25, n26], type: rooms.Casal }
+const q14={elemnts: [n27, n52,n51], type: rooms.Triplo }
+const q15={elemnts: [n28,n29], type: rooms.Casal }
+const q16={elemnts: [n30,n33], type: rooms.Duplo }
+const q17={elemnts: [n31, n32], type: rooms.Casal }
+const q18={elemnts: [n35, n36], type: rooms.Casal }
+const q19={elemnts: [n39, n40], type: rooms.Casal }
+const q20={elemnts: [n41, n50], type: rooms.Duplo }
+const q21={elemnts: [n42, n43], type: rooms.Casal }
+const q22={elemnts: [n45,n46], type: rooms.Casal }
+const q23={elemnts: [n47, n48], type: rooms.Casal }
+const q24={elemnts: [n49], type: rooms.Individual }
+const q25={elemnts: [n1,n3], type: rooms.Casal }
+const q26={elemnts: [n2,n4], type: rooms.Duplo }
 var individual = 0;
 var duplo = 0;
+var casal = 0;
 var triplo = 0;
 var total = 0;
 var Quartos = [q1 ,q2 ,q3 ,q4 ,q5 ,q6 ,q7 ,q8 ,q9 ,q10,q11,q12,q13,q14,q15,q16
@@ -103,35 +111,54 @@ function main(){
     }
     let ol = document.getElementById("quartos")
     //console.log(Quartos)
+    index= 0;
     for(q of Quartos){
-        switch(q.length){
+        index++
+        let text= ""
+        let li = document.createElement("tr"); 
+        let Num = document.createElement("td")
+        Num.textContent = index
+        li.appendChild(Num)
+        let TypeTable = document.createElement("td")
+        switch(q.type){
             case 1:
                 individual++;
+                TypeTable.textContent= "Individual"
                 break;
             case 2:
                 duplo++;
+                TypeTable.textContent= "Duplo"
                 break;
             case 3:
                 triplo++;
+                TypeTable.textContent= "Triplo"
                 break;
-                default:
-                    break;
+            case 4:
+                casal++;
+                TypeTable.textContent= "Casal"
+                break;
+            default:
+                break;
                 }
         //console.log(q)
-        let li = document.createElement("li"); 
-        let text= ""
-        for(let i in q){
+        let NamesTable =document.createElement("td");
+        for(let i in q.elemnts){
             total++;
-            text = text+" "+q[i].nome+",";
+            text = text+" "+q.elemnts[i].nome+",";
         }
         text = text.substring(0,text.length-1)+";"
-        li.textContent=text;
+        NamesTable.textContent = text;
+        li.appendChild(NamesTable)
+        li.appendChild(TypeTable)
+        //li.textContent=text;
         ol.appendChild(li)
     }
     let q1 = document.getElementById("q1")
     q1.textContent = individual;
     let q2 = document.getElementById("q2")
     q2.textContent = duplo;
+    let q4 = document.getElementById("q4")
+    q4.textContent = casal;
     let q3 = document.getElementById("q3")
     q3.textContent = triplo
     let t = document.getElementById("t")
