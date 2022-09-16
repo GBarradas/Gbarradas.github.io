@@ -6,7 +6,9 @@ tfoot{
     border-top: 2pt solid black;
 }
 tr{
-    height: 40px;
+    height: 60px;
+    max-height: 60px;
+    
 }
 .tableShowSem:hover{
     border: 2px solid black;
@@ -47,6 +49,9 @@ tr:nth-child(even) {
 }
 .center{
     text-align: center;
+}
+.td_img{
+    float: right;
 }
 
 
