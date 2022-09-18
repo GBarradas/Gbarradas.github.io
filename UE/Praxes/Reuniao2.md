@@ -41,8 +41,8 @@
 > - Combinar nova reunião antes de quinta ou combinar casas.
 > - 
 - Proximos Jantares
-> - 
+> - Reunião Sexta- feira: 23/09/2022
 
 ## Outos Topicos
-- Jogo para recolher as informações sobre os bichos
+- Jogo para conhecer e recolher as informações sobre os bichos. Tipo circuito com objetivos
 - 
