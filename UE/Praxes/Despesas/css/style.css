@@ -5,6 +5,10 @@ th{
 tfoot{
     border-top: 2pt solid black;
 }
+.Week{
+    border-top: 2pt solid black;
+    border-bottom: 2pt solid black;
+}
 tr{
     height: 60px;
     max-height: 60px;

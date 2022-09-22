@@ -5,25 +5,32 @@ let Desp = [
     {despesa: "Compras para os jantares",data: "17/09/2022",valor: 97.35,Obs: "-",loja:"Auchan",link: "files/Auchan_17092022.pdf", logo: "https://www.marshopping.com/matosinhos/-/media/images/b2c/portugal/matosinhos/images-stores/auchan/auchan_logo_2019.ashx?h=282&iar=0&mw=650&w=410&hash=6080628DA88F979CC8A18AFD71469B76"},
     {despesa: "Copos e Pratos",data: "19/09/2022",valor: 10.00,Obs: "",loja:"A Revendedora", link: "files/revendedora_19092022.pdf", logo:"img/revendedora.png"},
     {despesa: "Compra para Jantar rossio",data: "20/09/2022",valor: 30.61 ,Obs: "-",loja:"Lidl", link: "files/Lidl_20092022.png", logo:"https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/5d/d5/03/5dd503b7-a709-c851-45bc-ee0a7dd42b75/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png"},
+    {week: "1º Semana",inicio:"17/09/2022", final: "23/09/2022"},
+    //{despesa: "",data: "",valor: 0,Obs: "",loja:"", link: "files/", logo:""},
+    {week: "2º Semana",inicio:"23/09/2022", final: "30/09/2022"},
 ]
 
 
 function main(){
     let tbody = document.getElementById("table");
-    
+    let Total = 0.0
     for(d of Desp){
-        let tr = document.createElement("tr")
-        let td_desp = document.createElement("td") 
-        td_desp.textContent = d.despesa
+        if(Object.keys(d).length ===7 ){
+
+            let tr = document.createElement("tr")
+            let td_desp = document.createElement("td") 
+            td_desp.textContent = d.despesa
         tr.appendChild(td_desp)
         //----------------------------------
         let td_logo = document.createElement("td")
-        let img = document.createElement("img")
-        img.src=d.logo
-        img.alt = d.loja +" logo"
-        img.width= 80
-        td_logo.appendChild(img)  
-        td_logo.classList= "td_img"   
+        if(d.logo!==""){
+            let img = document.createElement("img")
+            img.src=d.logo
+            img.alt = d.loja +" logo"
+            img.width= 80
+            td_logo.appendChild(img)  
+            td_logo.classList= "td_img"   
+        }
         tr.appendChild(td_logo)
         //----------------------------------
         let td_loja = document.createElement("td") 
@@ -38,6 +45,7 @@ function main(){
         let td_valo = document.createElement("td") 
         td_valo.classList = "center"
         td_valo.textContent = d.valor+" €"
+        Total = Total + d.valor;
         tr.appendChild(td_valo)
         //----------------------------------
         let td_obse = document.createElement("td") 
@@ -54,6 +62,30 @@ function main(){
         tr.appendChild(td_link)
         //----------------------------------
         tbody.appendChild(tr)
+        }
+        else{
+            let tr = document.createElement("tr")
+            tr.classList="Week"
+            let td_week = document.createElement("td")
+            td_week.textContent = d.week;
+            tr.appendChild(td_week)
+            let td_start = document.createElement("td")
+            td_start.textContent = d.inicio
+            td_start.colSpan=2
+            tr.appendChild(td_start)
+            let td_end = document.createElement("td")
+            td_end.textContent= d.final
+            td_end.colSpan=2
+            tr.appendChild(td_end)
+            let td_val = document.createElement("td")
+            td_val.textContent = Total.toFixed(2)
+            td_val.colSpan=2
+            td_val.style.fontSize= "xx-large"
+            tr.appendChild(td_val)
+
+            tbody.appendChild(tr)
+            Total = 0.0;
+        }
     }
 
     getTotal()
@@ -62,11 +94,12 @@ function main(){
 
 function getTotal(){
     let total = document.getElementById("total");
-    console.log(total)
+    //console.log(total)
     let t = 0.0;
     for(d of Desp){
+        if(Object.keys(d).length === 7)
         //console.log(t)
-        t = t+ d.valor;
+            t = t+ d.valor;
     }
     //console.log(t)
     total.textContent = t.toFixed(2) +" €"
