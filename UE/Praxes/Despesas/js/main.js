@@ -5,9 +5,10 @@ let Desp = [
     {despesa: "Compras para os jantares",data: "17/09/2022",valor: 97.35,Obs: "-",loja:"Auchan",link: "files/Auchan_17092022.pdf", logo: "https://www.marshopping.com/matosinhos/-/media/images/b2c/portugal/matosinhos/images-stores/auchan/auchan_logo_2019.ashx?h=282&iar=0&mw=650&w=410&hash=6080628DA88F979CC8A18AFD71469B76"},
     {despesa: "Copos e Pratos",data: "19/09/2022",valor: 10.00,Obs: "",loja:"A Revendedora", link: "files/revendedora_19092022.pdf", logo:"img/revendedora.png"},
     {despesa: "Compra para Jantar rossio",data: "20/09/2022",valor: 30.61 ,Obs: "-",loja:"Lidl", link: "files/Lidl_20092022.png", logo:"https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/5d/d5/03/5dd503b7-a709-c851-45bc-ee0a7dd42b75/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png"},
-    {despesa: "Copos e Salchichas",data: "22/09/2022",valor: 0.00,Obs: "",loja:"A Revendedora", link: "files/revendedora_22092022.pdf", logo:"img/revendedora.png"},
+    {despesa: "Copos e Salchichas",data: "22/09/2022",valor: 40.86,Obs: "",loja:"A Revendedora", link: "files/revendedora_22092022.pdf", logo:"img/revendedora.png"},
+    {despesa: "Bagaço ",data: "22/09/2022",valor: 26.97,Obs: "",loja:"Continente", link: "files/continente_22092022.pdf", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Logo_Continente.svg/1920px-Logo_Continente.svg.png"},
     {week: "1º Semana",inicio:"17/09/2022", final: "23/09/2022"},
-    //{despesa: "",data: "",valor: 0,Obs: "",loja:"", link: "files/", logo:""},
+    {despesa: "",data: "",valor: 0,Obs: "",loja:"", link: "files/", logo:""},
     {week: "2º Semana",inicio:"23/09/2022", final: "30/09/2022"},
 ]
 
