@@ -81,7 +81,7 @@ function main(){
             td_end.colSpan=2
             tr.appendChild(td_end)
             let td_val = document.createElement("td")
-            td_val.textContent = Total.toFixed(2)
+            td_val.textContent = Total.toFixed(2)+" €"
             td_val.colSpan=2
             td_val.style.fontSize= "xx-large"
             tr.appendChild(td_val)
