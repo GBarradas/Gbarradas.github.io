@@ -7,7 +7,11 @@
 ## Montar a pen  
 1. Intalar o [rufus](https://rufus.ie/en/)
 2. Realizar o download do Ubuntu.
-    >-
+    >- [Ubuntu](https://ubuntu.com/download)
+    > - [Fedora](https://getfedora.org/)
+    > - [Mint](https://linuxmint.com/)  
+    >- [Kali](https://www.kali.org/)
+
 3. Inserir a pen de pelo menos 4GB no computador.
 4. Abrir o rufus e selecioar o dispositivo no qual pertende montar o linux e selecionar o ficheiro iso  
 5. Apos a pen pronta podemos começãr a preparar o computador para instalarmos o linux
@@ -17,7 +21,8 @@
 1. Abra o Gerenciamento de disco
     - Windows+R e `diskmgmt.msg` 
 2. Escolha o disco onde pretende que o ubuntu seja instalado e reduza o volume , escolha uma quantidade de voluma e multiplique por 1024.
-3. Apos a redução crie um **Novo Volume Simples**
+3. Apos a redução crie um **Novo Volume Simples**  
+
 ## Instalar o Linux  
 1. Reinicie o pc e insira a pen com a distribuição linux desejada.
 2. Ao iniciar o pc entre no menu de boot.
@@ -69,6 +74,6 @@ $ sudo nano /etc/default/grub
 ```
 Alterar **_GRUB_DEFAULT_**
  e ou **_GRUB_TIMEOUT_**  
- 
+
 ## Outros  
 
