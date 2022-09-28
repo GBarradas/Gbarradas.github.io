@@ -7,9 +7,9 @@
 ## Montar a pen  
 1. Intalar o [rufus](https://rufus.ie/en/)
 2. Realizar o download do Ubuntu.
+    >-
 3. Inserir a pen de pelo menos 4GB no computador.
 4. Abrir o rufus e selecioar o dispositivo no qual pertende montar o linux e selecionar o ficheiro iso  
-    >-
 5. Apos a pen pronta podemos começãr a preparar o computador para instalarmos o linux
 
 ## Criar uma partição  
