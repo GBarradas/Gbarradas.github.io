@@ -6,6 +6,7 @@
 3.  Outro asuuntos tambem importante
     1. Jantar do escaravilhão
     2. Praxe comunitaria.
+    3. Esclarecer saidas com os bichos.
 2. Proxima Semana
     1. atividades o que fazer em cada dia na praxe
     2.  praxe suja - quando e como? (Esta semana)
