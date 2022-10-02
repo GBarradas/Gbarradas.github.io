@@ -13,8 +13,10 @@ let Desp = [
     {despesa: "Vinho Tinto",data: "28/09/2022",valor: 20.41,Obs: "-",loja:"JB Santana", link: "files/jbsantana_28092022.pdf", logo:"img/jbsantana.jpg"},
     {despesa: "Vinho e Gasosas",data: "28/09/2022",valor: 69.77,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_28092022.pdf", logo:"https://707.pt/wp-content/uploads/2019/07/pingo-doce.png"},
     {despesa: "Vodka",data: "28/09/2022",valor:34.74 ,Obs: "-",loja:"Continente", link: "files/continente_28092022.pdf", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Logo_Continente.svg/1920px-Logo_Continente.svg.png"},
-    {despesa: "olhoes e Batatas",data: "29/09/2022",valor: 26.23 ,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_29092022", logo:"https://707.pt/wp-content/uploads/2019/07/pingo-doce.png"},
+    {despesa: "olhoes e Batatas",data: "29/09/2022",valor: 26.23 ,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_29092022.pdf", logo:"https://707.pt/wp-content/uploads/2019/07/pingo-doce.png"},
     {week: "2º Semana",inicio:"23/09/2022", final: "30/09/2022"},
+    {despesa: "",data: "",valor: 0,Obs: "-",loja:"", link: "files/", logo:""},
+    {week: "3º Semana",inicio:"30/09/2022", final: "07/10/2022"},
 ]
 
 
