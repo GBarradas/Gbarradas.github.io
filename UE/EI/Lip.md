@@ -10,7 +10,7 @@
     >- [Ubuntu](https://ubuntu.com/download)
     > - [Fedora](https://getfedora.org/)
     > - [Mint](https://linuxmint.com/)  
-    >- [Kali](https://www.kali.org/)
+    > - [Kali](https://www.kali.org/)
 
 3. Inserir a pen de pelo menos 4GB no computador.
 4. Abrir o rufus e selecioar o dispositivo no qual pertende montar o linux e selecionar o ficheiro iso  

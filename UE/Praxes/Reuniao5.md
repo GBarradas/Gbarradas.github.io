@@ -1,7 +1,8 @@
 # Reunião  03/10/2022   
 
 1.  Balanço da ultima semana, apontar o que pode ser melhorado.
-     1. Balanço do ultimo jantar.
+     1. Balanço do ultimo jantar
+     2. Esclarecer a malta sobre emprestar capas a bichos.
      2. Perguntar se sobrou alguma coisa.
 3.  Outro asuuntos tambem importante
     1. Jantar do escaravilhão
