@@ -19,6 +19,9 @@ let Desp = [
     {despesa: "Atum",data: "04/10/2022",valor: 83.62,Obs: "-",loja:"A Revendedora", link: "files/revendedora_04102022.pdf", logo:"img/revendedora.png"},
     {despesa: "Vodka, Esparguete e sacos do lixo",data: "04/10/2022",valor: 41.7,Obs: "-",loja:"Continente", link: "files/continente_04102022.pdf", logo:"img/continente.jpg"},
     {despesa: "Vinho Gasosas etxc...",data: "04/10/2022",valor: 73.95,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_04102022.pdf", logo:"https://707.pt/wp-content/uploads/2019/07/pingo-doce.png"},
+    {despesa: "Chapu e pasta de dentes ",data: "04/10/2022",valor: 18.81,Obs: "-",loja:"A Revendedora", link: "files/", logo:"img/revendedora.png"},
+    {despesa: "Artigos praxe suja",data: "04/10/2022",valor: 29.1,Obs: "-",loja:"Evora Home", link: "files/", logo:""},
+    {despesa: "Espuma de barbear",data: "04/10/2022",valor: 3.87,Obs: "-",loja:"Lidl", link: "files/", logo:"https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/5d/d5/03/5dd503b7-a709-c851-45bc-ee0a7dd42b75/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png"},
     {week: "3º Semana",inicio:"30/09/2022", final: "07/10/2022"},
 ]
 
