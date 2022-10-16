@@ -24,8 +24,14 @@ let Desp = [
     {class:"w3", despesa: "Espuma de barbear",data: "04/10/2022",valor: 3.87,Obs: "-",loja:"Lidl", link: "files/lidl_04102022.pdf", logo:"https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/5d/d5/03/5dd503b7-a709-c851-45bc-ee0a7dd42b75/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png"},
     {class:"w3", despesa: "Vinho",data: "04/10/2022",valor: 11.98,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_04102022%20(1).pdf", logo: pingodoce},
     {class:"w3",week: "3º Semana",inicio:"30/09/2022", final: "07/10/2022"},
-    {class:"w4",despesa: "",data: "",valor: 0,Obs: "-",loja:"", link: "files/", logo:""},
+    {class:"w4",despesa: "Jantares",data: "13/10/2023",valor: 29.14,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_13102022.html", logo:pingodoce},
+    {class:"w4",despesa: "Vodka",data: "13/10/2022",valor: 27.96,Obs: "-",loja:"Continente", link: "files/continente_13102022.pdf", logo:"img/continente.jpg"},
+    {class:"w4",despesa: "Vinho",data: "13/10/2022",valor: 23.29,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_13102022_1.pdf", logo:pingodoce},
+    {class:"w4",despesa: "Vinho",data: "13/10/2022",valor: 40.23,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_13102022_2.pdf", logo:pingodoce},
+    {class:"w4",despesa: "Jantares",data: "13/10/2022",valor: 49,Obs: "-",loja:"-", link: "#", logo:""},
     {class:"w4",week: "4º Semana",inicio:"08/10/2022", final: "14/10/2022"},
+    {class:"" ,despesa: "",data: "",valor: 0,Obs: "-",loja:"", link: "files/", logo:""},
+    {class:"w5",week: "4º Semana",inicio:"08/10/2022", final: "14/10/2022"},
     {class:"ap",despesa: "Bolachas Aula de praxe",data: "03/10/2022",valor: 100,Obs: "-",loja:"Tiagos Academica", link: "files/tiagos_03102022.html", logo:"img/tiagos.png"},
     {class:"ap",despesa: "Disfarces aula de praxe",data: "07/102022",valor: 103,Obs: "-",loja:"Évora Home", link: "files/evorahome_07102022.pdf", logo:"img/evohome.svg"},
     {class:"ap",despesa: "Tecidos e linhas",data: "07/10/2022",valor: 29.61,Obs: "-",loja:"Pack dos tecidos", link: "files/packdostecidos_07102022.pdf", logo:"https://parkdostecidos.com/galeria/config/6239f64c40ecd_header-logo.webp"},
@@ -36,6 +42,8 @@ let Desp = [
     {class:"ap",despesa: "Artigos de Custura",data: "08/10/2022",valor: 4.4,Obs: "-",loja:"Pack dos Tecidos", link: "files/packdostecidos_08102022.pdf", logo:"https://parkdostecidos.com/galeria/config/6239f64c40ecd_header-logo.webp"},
     {class:"ap",despesa: "Outros",data: "08/10/2022",valor: 20,Obs: "",loja:"Diversas", link: "files/", logo:""},
     {class:"ap",despesa: "Blusas Aula de praxe",data: "08/10/2022",valor: 261.00,Obs: "-",loja:"Sul Merchandising", link: "files/", logo:"https://aquisevende.pt/wp-content/uploads/2020/04/aqui-se-vende-textil-criativo.png"},
+    {class:"ap",despesa: "Adresso Piça",data: "15/102022",valor: 2.95,Obs: "-",loja:"Évora Home", link: "files/evorahome_15102022.pdf", logo:"img/evohome.svg"},
+    {class:"ap",despesa: "Cola",data: "16/102022",valor: 5.55,Obs: "-",loja:"Évora Home", link: "files/evorahome_16102022.pdf", logo:"img/evohome.svg"},
     {class:"ap",week: "Aula de Praxe",inicio:".", final: "."},
 ]
 
@@ -132,7 +140,7 @@ function main(){
     initialHide("w1")
     initialHide("w2")
     initialHide("w3")
-    initialHide("w4")
+    //initialHide("w4")
     initialHide("ap")
 }
 function initialHide(a){

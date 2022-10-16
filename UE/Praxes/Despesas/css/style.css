@@ -17,8 +17,8 @@ tfoot{
     border-top: 2px solid black
 }
 .Week{
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    border-bottom: 2px double black;
+    border-top: 2px double black;
     background-color: white !important;
 }
 .center{
