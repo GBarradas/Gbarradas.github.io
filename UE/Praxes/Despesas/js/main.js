@@ -30,8 +30,8 @@ let Desp = [
     {class:"w4",despesa: "Vinho",data: "13/10/2022",valor: 40.23,Obs: "-",loja:"Pingo Doce", link: "files/pingodoce_13102022_2.pdf", logo:pingodoce},
     {class:"w4",despesa: "Jantares",data: "13/10/2022",valor: 49,Obs: "-",loja:"-", link: "#", logo:""},
     {class:"w4",week: "4º Semana",inicio:"08/10/2022", final: "14/10/2022"},
-    {class:"" ,despesa: "",data: "",valor: 0,Obs: "-",loja:"", link: "files/", logo:""},
-    {class:"w5",week: "4º Semana",inicio:"08/10/2022", final: "14/10/2022"},
+    {class:"w5" ,despesa: "",data: "",valor: 0,Obs: "-",loja:"", link: "files/", logo:""},
+    {class:"w5",week: "5º Semana",inicio:"15/10/2022", final: "21/10/2022"},
     {class:"ap",despesa: "Bolachas Aula de praxe",data: "03/10/2022",valor: 100,Obs: "-",loja:"Tiagos Academica", link: "files/tiagos_03102022.html", logo:"img/tiagos.png"},
     {class:"ap",despesa: "Disfarces aula de praxe",data: "07/102022",valor: 103,Obs: "-",loja:"Évora Home", link: "files/evorahome_07102022.pdf", logo:"img/evohome.svg"},
     {class:"ap",despesa: "Tecidos e linhas",data: "07/10/2022",valor: 29.61,Obs: "-",loja:"Pack dos tecidos", link: "files/packdostecidos_07102022.pdf", logo:"https://parkdostecidos.com/galeria/config/6239f64c40ecd_header-logo.webp"},
@@ -43,7 +43,9 @@ let Desp = [
     {class:"ap",despesa: "Outros",data: "08/10/2022",valor: 20,Obs: "",loja:"Diversas", link: "files/", logo:""},
     {class:"ap",despesa: "Blusas Aula de praxe",data: "08/10/2022",valor: 261.00,Obs: "-",loja:"Sul Merchandising", link: "files/", logo:"https://aquisevende.pt/wp-content/uploads/2020/04/aqui-se-vende-textil-criativo.png"},
     {class:"ap",despesa: "Adresso Piça",data: "15/102022",valor: 2.95,Obs: "-",loja:"Évora Home", link: "files/evorahome_15102022.pdf", logo:"img/evohome.svg"},
+    {class:"ap",despesa: "Tecidos",data: "15/102022",valor: 9.09,Obs: "-",loja:"Pack dos Tecidos", link: "files/packdostecidos_15102022.pdf", logo:"https://parkdostecidos.com/galeria/config/6239f64c40ecd_header-logo.webp"},
     {class:"ap",despesa: "Cola",data: "16/102022",valor: 5.55,Obs: "-",loja:"Évora Home", link: "files/evorahome_16102022.pdf", logo:"img/evohome.svg"},
+    {class:"ap",despesa: "Teste de Gravidez",data: "16/102022",valor: 8.99,Obs: "-",loja:"Farmacia", link: "files/farmacia_16102022.pdf", logo:""},
     {class:"ap",week: "Aula de Praxe",inicio:".", final: "."},
 ]
 
@@ -140,7 +142,8 @@ function main(){
     initialHide("w1")
     initialHide("w2")
     initialHide("w3")
-    //initialHide("w4")
+    initialHide("w4")
+    initialHide("w5")
     initialHide("ap")
 }
 function initialHide(a){
