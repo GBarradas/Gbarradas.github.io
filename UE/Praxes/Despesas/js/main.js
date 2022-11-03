@@ -48,7 +48,7 @@ let Desp = [
     {class:"ap",despesa: "Cola",data: "16/102022",valor: 5.55,Obs: "-",loja:"Évora Home", link: "files/evorahome_16102022.pdf", logo:"img/evohome.svg"},
     {class:"ap",despesa: "Teste de Gravidez",data: "16/102022",valor: 8.99,Obs: "-",loja:"Farmacia", link: "files/farmacia_16102022.pdf", logo:""},
     {class:"ap",despesa: "Chines, pinto e filhos, pingo doce e lidl",data: "18/102022",valor: 148.11,Obs: "-",loja:"Diversas", link: "files", logo:""},
-    {class:"ap",despesa: "Janatar ",data: "19/102022",valor: 13,Obs: "-",loja:"Clube Bilhar Eborense (TETOS)", link: "files", logo:""},
+    {class:"ap",despesa: "Jantar ",data: "19/102022",valor: 13,Obs: "-",loja:"Clube Bilhar Eborense (TETOS)", link: "files", logo:""},
     {class:"ap",week: "Aula de Praxe",inicio:".", final: "."},
 ]
 
