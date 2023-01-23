@@ -201,8 +201,8 @@ aa={
     nome: "Apredizagem Automática" ,
     aC:inf,
     etcs: 6,
-    feita: true ,
-    nota: "11",
+    feita: false ,
+    nota: "-",
 },
 mds={
     semestre: 5 ,
@@ -210,8 +210,8 @@ mds={
     nome: "Metodologias e Desenvolvimento de Software" ,
     aC:inf,
     etcs: 6,
-    feita: true ,
-    nota: "14",
+    feita: false ,
+    nota: "-",
 },
 p3={
     semestre: 5 ,
@@ -228,8 +228,8 @@ sdi={
     nome: "Sistemas Distribuidos" ,
     aC:inf,
     etcs: 6,
-    feita: true ,
-    nota: "13",
+    feita: false ,
+    nota: "-",
 },
 tw={
     semestre: 5 ,
@@ -237,8 +237,8 @@ tw={
     nome: "Tecnologias Web" ,
     aC:inf,
     etcs: 6,
-    feita: true ,
-    nota: "16",
+    feita: false ,
+    nota: "-",
 },
 //6º Semestre
 ia={
