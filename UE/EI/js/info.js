@@ -35,8 +35,8 @@ alga={
     nome: "Álgebra Linear e Geometria Analítica" ,
     aC:mat,
     etcs: 6,
-    feita: false ,
-    nota:"-",
+    feita: true ,
+    nota:"10",
 },
 am1={
     semestre: 1 ,
@@ -201,8 +201,8 @@ aa={
     nome: "Apredizagem Automática" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "12",
 },
 mds={
     semestre: 5 ,
@@ -210,8 +210,8 @@ mds={
     nome: "Metodologias e Desenvolvimento de Software" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "13",
 },
 p3={
     semestre: 5 ,
@@ -228,8 +228,8 @@ sdi={
     nome: "Sistemas Distribuidos" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "15",
 },
 tw={
     semestre: 5 ,
@@ -237,8 +237,8 @@ tw={
     nome: "Tecnologias Web" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "16",
 },
 //6º Semestre
 ia={
