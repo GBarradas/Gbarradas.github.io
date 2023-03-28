@@ -1,8 +1,7 @@
-📂 Gbarradas   
-&emsp;&emsp;📂 [Praxes](UE/Praxes)   
+📂 Gbarradas  
 &emsp;&emsp;📂 [EI](UE/EI)  
 📂 [AA_Work_1](AA_Work_1)  
-📂 [AA_Work_2](AA_Work_)  
+📂 [AA_Work_2](AA_Work_2)  
 📂 [BD_Work_1](BD_Work_1)  
 📂 [BD_Work_2](BD_Work_2)    
 📂 [CG_Work](CG-Work/)  
@@ -22,7 +21,6 @@
 📂 [SO_Work_2](SO_Work_2)   
 📂 [TW_Work_1](TW_Work_1)  
 📂 [TW_Work_2](TW_Work_2)  
-
 
 ---
 

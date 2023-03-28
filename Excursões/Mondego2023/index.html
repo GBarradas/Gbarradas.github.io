@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-PT"></html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mondego 2023</title>
+        <script type="text/javascript" src="Nomes.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container" >
+
+            <div >
+                <h1>Nomes</h1>
+            <ol id = "names"></ol>
+
+        </div>
+        <br>
+        <div id="p100q">
+            <h1 style="margin-bottom: 0px" >Pessoas Sem Quarto</h1>
+            <small></small>
+            <p> </p>
+        </div>
+        <div >
+            <h1>Quartos</h1>
+            <table>
+                <thead>
+                   <th>Nº</th> 
+                   <th>Nomes</th>
+                   <th>Tipo</th>
+                </thead>
+                <tbody id ="quartos">
+
+                </tbody>
+
+            </table>
+            
+        </div>    
+    </div>
+    <div>
+        <p>Quarto Individual : <span id="q1"></span></p>
+        <p>Quarto Duplo : <span id="q2"></span></p>
+        <p>Quarto Casal : <span id="q4"></span></p>
+        <p>Quarto Triplo : <span id="q3"></span></p>
+        <p>Total : <span id="t"></span></p>
+    </div>
+        <script>main()</script>
+    </body>
+</head>
+</html>

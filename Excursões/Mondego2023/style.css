@@ -1,0 +1,102 @@
+html{
+    font-family: Ubuntu;
+}
+.container {
+
+    justify-items: stretch;
+    align-items: stretch;
+}
+body {
+    background-color: rgba(128, 128, 128, 0.281);
+    padding-left: 5%;
+    width: 90%;
+}
+
+
+li{
+    font-size: large;
+}
+.needname{
+background-color: red;
+}
+h1{
+font-size: 50px;
+}
+.moto{
+background-color: yellow;
+}
+
+
+th{
+    border-bottom: 2pt solid black;
+    height: 40px;
+}
+tr{
+    height: 40px;
+}
+.tableShowSem:hover{
+    border: 2px solid black;
+}
+small{
+    font-style: italic;
+    color: darkred;
+    font-size: 1.2em;
+}
+#dis{
+    height:50vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 5vw;
+    width: 80vw
+}
+#mainHead{
+    text-align: left;
+}
+tr{
+    background-color: #d3d3d3;
+}
+tr:nth-child(even) {
+    background-color: #fffefe;
+    -webkit-column-break-after: 0px;
+}
+.feita,
+.showSem,
+.colum{
+    align-items: center;
+    text-align: center;
+}
+.calcmed{
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+#navdiv{ 
+    margin-top: 30px;
+    position: inline-block; 
+    align-items: center; 
+    text-align: center; 
+    margin-left: 10vw;
+    width: 80vw;
+} 
+#navdiv span button{
+    margin-left: .25rem;
+    margin-right: .25rem;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    background-color:rgb(185, 209, 236);
+    border: 2px solid black;
+    padding: .375rem 2rem;
+    font-size:1.9rem;
+    border-radius:.25rem;
+}
+#navdiv span button:hover{
+    background-color:rgb(207, 207, 207);
+}
+
+#left{float: left; } 
+#center{ text-align: center; } 
+#right{float: right; }  
