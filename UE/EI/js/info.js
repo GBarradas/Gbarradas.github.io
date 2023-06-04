@@ -265,8 +265,8 @@ ei={
     nome: "Empreendorismo e Inovação" ,
     aC:"Gestão",
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "17",
 },
 si={
     semestre: 6 ,
