@@ -274,8 +274,8 @@ si={
     nome: "Seguraça Informática" ,
     aC:inf,
     etcs: 3,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "17",
 },
 sma={
     semestre: 6 ,
