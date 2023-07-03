@@ -247,8 +247,8 @@ ia={
     nome: "Inteligência Artifial" ,
     aC:inf,
     etcs: 6,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "15",
 },
 ep={
     semestre: 6 ,
