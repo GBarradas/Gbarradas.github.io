@@ -256,8 +256,8 @@ ep={
     nome: "Estágio / Projeto" ,
     aC:inf,
     etcs: 12,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "17",
 },
 ei={
     semestre: 6 ,
