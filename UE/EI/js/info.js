@@ -283,8 +283,8 @@ sma={
     nome: "Sistemas Móveis e Aplicações" ,
     aC:inf,
     etcs: 3,
-    feita: false ,
-    nota: "-",
+    feita: true ,
+    nota: "15",
 }
 const s1={
     nome: "1º",
