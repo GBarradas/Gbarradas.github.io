@@ -23,7 +23,7 @@
 📂 [SD_Work_2](SD_Work_2)  
 📂 [SI_Work](SI_Work)   
 📂 [SMA_Work](SMA_Work)  
-📂 [SO_Work_1](https://github.com/GBarradas/SO_Work_2)   
+📂 [SO_Work_1](SO_Work_1)   
 📂 [SO_Work_2](SO_Work_2)   
 📂 [TW_Work_1](TW_Work_1)  
 📂 [TW_Work_2](TW_Work_2)  
